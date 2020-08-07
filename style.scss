@@ -795,7 +795,6 @@ body {
                 text-align: center;
             }
         }
-
         figure {
             text-align: center;
         }
@@ -813,48 +812,45 @@ body {
         .feature-text {
             padding-left: 0;
         }
-    
         .feature-text-pc {
             padding-right: 0;
+        }
+        dd {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        dt {
+            padding-left: 10px;
+            padding-right: 10px;
         }
         .price-pcd {
             display: none;
         }
-
         .price-spd {
             display: block;
         }
-        
-        
-
         .blog-inner {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 20px 0;
         }
-
         .blog-box {
             width: 100%;
         }
-
         .swiper-container {
             width: 100%;
         }
-
         .swiper-slide {
             height: auto;
             border: none;
         }
-
         .contact-inner {
             width: 100%;
         }
-
         .contact-container {
             width: 80%;
         }
-
         textarea {
             width: 80%;
         }
