@@ -261,7 +261,7 @@ body {
     
         .table-pc {
             width: 100%;
-            box-shadow: 0 3px 6px rgba(0,0,0,16);
+            box-shadow: 0 1px 8px rgba(0,0,0,2);
             background-color: #fff;
             border-collapse: collapse;
             th {
@@ -306,7 +306,7 @@ body {
     
         .table-sp {
             width: 100%;
-            box-shadow: 0 3px 6px rgba(0,0,0,16);
+            box-shadow: 0 1px 8px rgba(0,0,0,2);
             background-color: #fff;
             border-collapse: collapse;
             text-align: center;
@@ -423,7 +423,7 @@ body {
     
         &-box {
             background-color: #FFFFFF;
-            box-shadow: 0 3px 6px rgba(0,0,0,16);
+            box-shadow: 0 1px 8px rgba(0,0,0,2);
             position: relative;
             border-radius: 8px;
             margin-bottom: 40px;
@@ -664,7 +664,18 @@ body {
         display: none;
     }
 
-    @media (max-width: 678px) {
+    .effect-fade {
+        opacity: 0;
+        transform: translate(0,80px);
+        transition: all 1200ms;
+    }
+        
+    .effect-fade.effect-scroll {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+
+    @media (max-width: 768px) {
 
         //ハンバーガーメニュー
         .header-nav {
