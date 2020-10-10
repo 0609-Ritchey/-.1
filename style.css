@@ -706,7 +706,7 @@ small {
   .nav a {
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .nav_menu_ul {
@@ -861,6 +861,7 @@ small {
   .header-ttl {
     font-size: 18px;
     margin-left: 0;
+    word-break: keep-all;
   }
 
   .main-copy h2 {
